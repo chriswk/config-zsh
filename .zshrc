@@ -66,7 +66,7 @@ alias afj="ssh chriswk@afj"
 
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
-[[ -s "$HOME/.env"]] && source $HOME/.env
+[[ -s "$HOME/.env" ]] && source "$HOME/.env"
 
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
 
